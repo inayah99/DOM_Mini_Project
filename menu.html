@@ -80,7 +80,7 @@
               <li class="breadcrumb-item active" aria-current="page">MENU</li>
             </ol>
           </nav>
-      <h2 class="page__title__text" onclick="ubahWarna()">
+      <h2 class="page__title__text">
         Explore Our Menu
       </h2>
     </div>
@@ -186,13 +186,6 @@
       <h2 class="dishGrid__title">
         Main Courses
       </h2>
-      <script>
-      let h2 = document.getElementsByTagName("h2");
-
-        h2.onclick = () => {
-            h2.innerHTML = (h2.innerHTML == "Main Courses") ? "Menu Utama" : "Daily Menu";
-        }
-      </script>
       <div class="dishGrid__wrapper width: 150px;">
         <div class="dishGrid__item g-col-4">
           <div class="dishGrid__item__img">
@@ -365,6 +358,5 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="./DOM.js"></script>
   </body>
 </html>
